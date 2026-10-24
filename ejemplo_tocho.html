@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--  
+    L'element `html` és l'arrel del document HTML.
+    Conté tots els altres elements del document HTML.
+
+    xmlns:  Defineix l'espai de noms XML per a XHTML.
+    lang:   Defineix l'idioma del document (ca = català).
+  -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<!--  
+    L'element `head` és l'encapçalament del document HTML.
+
+    charset="UTF-8":    Permet acceptar caràcters com accents o emojis.
+    title:              Defineix el títol del document que mostra la pestanya del navegador.
+  -->
+    <head>
+       <meta charset="UTF-8">
+       <title>Currículums</title>
+    </head>
+<!--  
+    L'element `body` conté el contingut que es mostra a la pàgina web.
+  -->
+   <body>
+<!--  
+    L'element `nav` recull els principals enllaços de navegació.
+    L'element `br` fa un salt de línia.
+    L'element `hr` fa una línia horitzontal.
+    L'element `a` defineix un enllaç a una altra pàgina web.
+
+    &nbsp;      Espai en blanc (non-breaking space).
+  -->
+        <nav>
+            <a href="index.html">Inici</a>
+            &nbsp;|&nbsp;
+            <a href="peixos.html">Peixos</a>
+            &nbsp;|&nbsp;
+            <a href="dinosaures.html">Dinosaures</a>
+        </nav>
+        <br/><hr/>
+<!--  
+    L'element `h1` defineix un títol de nivell 1, principal.
+    L'element `h2` defineix un títol de nivell 2, subtitol.
+    L'element `p` defineix un paràgraf de text.
+    L'element `img` defineix una imatge.
+    L'element `ol` defineix una llista ordenada.
+    L'element `ul` defineix una llista desordenada.
+    L'element `li` defineix un element de llista (per llistes ol i ul).
+
+    &nbsp;      Espai en blanc (non-breaking space).
+  -->
+        <h1>Animals</h1>
+        <h2>Peixos</h2>
+        <img src="./imatges/peixos.png" alt="Peixos" width="200"/>
+        <p>Els peixos són animals aquàtics que viuen en l'aigua i respiren a través de brànquies.</p>
+        <p>Característiques:</p>
+        <ol>
+            <li>Respiren a través de brànquies.</li>
+            <li>Tenen escates que cobreixen el seu cos.</li>
+            <li>La majoria tenen aletes per nedar.</li>
+            <li>La seva reproducció és majoritàriament externa.</li>
+        </ol>
+        <br/>
+        <h2>Dinosaures</h2>
+        <img src="./imatges/dinosaures.png" alt="Dinosaures" width="200"/>  
+        <p>Els dinosaures són un grup d'animals que van viure fa milions d'anys i que actualment estan extingits.</p>
+        <p>Característiques:</p>
+        <ul>
+            <li>Alguns eren carnívors i altres herbívors.</li>
+            <li>Podien ser bípedes o quadrúpedes.</li>
+            <li>Alguns tenien plomes i altres escates.</li>
+            <li>Van viure durant el període Mesozoic.</li>
+        </ul>
+<!--  
+    L'element `footer` conté informació de peu de pàgina.
+    
+    target="_blank":    Obre l'enllaç en una nova pestanya.
+    mailto:             Obre el client de correu per enviar un email.
+    tel:                Obre l'aplicació de trucades amb el número de telèfon.
+  -->
+        <br/><br/><hr/><br/>
+        <footer>
+            © 2024 Científic Biòleg
+            <br/><br/>
+            <a href="mailto:albert@mail.com">Envia'm un email</a>
+            &nbsp;|&nbsp;
+            <a href="tel:+34666666666">Truca'm al 666 66 66 66</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.google.com" target="_blank">Buscar a Google</a>
+        </footer>
+   </body>
+</html>
