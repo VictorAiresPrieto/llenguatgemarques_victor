@@ -1,0 +1,75 @@
+#estil{ 
+    background-color: #c4f8e8;
+    font-family: Georgia;
+    font-size: 1.5em;
+    color: rgb(8, 0, 43);
+
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-decoration: underline;
+    }
+    h3 {
+        font-style: italic;
+    }
+
+    h3::before {
+        content:"*";
+        color:rgb(0, 0, 0)
+    }
+
+    h3::after {
+        content:"*";
+        color:rgb(0, 0, 0)
+    }
+
+    nav {
+        color: blue
+    }
+    footer {
+        color: blue;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    ol > ul {
+        font-size: smaller;
+    }
+}
+
+
+
+#llista{
+    color: rgba(43, 3, 151, 0.699);
+    h4 {
+        text-decoration: underline;
+    }
+
+    li:first-child {
+        color: rgb(0, 105, 5);
+    }
+
+    li:last-child {
+        color: rgb(133, 2, 2);
+    }
+}
+
+
+.subrallat {
+    text-decoration: underline;
+}
+.cursiva {
+    font-style: italic;
+}
+.blau {
+    color: blue;
+}
+.none {
+    text-decoration: none;
+}
