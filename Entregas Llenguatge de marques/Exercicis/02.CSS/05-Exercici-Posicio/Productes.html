@@ -1,39 +1,149 @@
 <!DOCTYPE html>
-<html  id="productes" xmlns="http://wwww.Botiga.org/Productes/xhtml" lang="ca">
+<html xmlns="http://wwww.Botiga.org/Productes/xhtml" lang="ca">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Global.css">
-        <title>Botiga</title>
+        <title>VELITAS TRIPLE A - Productes</title>
     </head>
     <body>
-        <hr>
-        <nav class="marges">
-            <section class="esquerra">
-                <a href="Index.html">Index</a>
+        <nav>
+            <section>
+                <a href="Index.html">Inici</a>
             </section>
-            <section class="centre">
+            <section>
                 <a href="Productes.html">Productes</a>
             </section>
-            <section class="dreta">
-                <a href="Contacte.html">Contactes</a>
+            <section>
+                <a href="Contacte.html">Contacte</a>
             </section>
         </nav>
-        <hr>
-        <div>
-            a
-        </div>
-        <hr>
+        <main>
+            <div>
+                <h1>El nostre catàleg</h1>
+                <h2>Descobreix totes les veles disponibles</h2>
+            </div>
+            <div>
+                <span>Filtrar per:</span>
+                <a href="#" data-filter="all">Totes</a>
+                <a href="#" data-filter="aromatiques">Aromàtiques</a>
+                <a href="#" data-filter="decoratives">Decoratives</a>
+                <a href="#" data-filter="packs">Packs regals</a>
+            </div>
+            <div>
+                <article data-category="aromatiques">
+                    <div>
+                        <img src="imatges/vela-aromatica.png" alt="Vela aromàtica lavanda">
+                    </div>
+                    <div>
+                        <h3>Vela aromàtica Lavanda</h3>
+                        <p>
+                            Cera de soja, essència natural de lavanda
+                            18,50 €
+                        </p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="aromatiques">
+                    <div class="product-img">
+                        <img src="imatges/vela-aromatica.png" alt="Vela aromàtica vainilla">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vela aromàtica Vainilla</h3>
+                        <p class="product-desc">Cera de soja, essència natural de vainilla</p>
+                        <p class="product-price">18,50 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="aromatiques">
+                    <div class="product-img">
+                        <img src="imatges/vela-aromatica.png" alt="Vela aromàtica canella">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vela aromàtica Canella</h3>
+                        <p class="product-desc">Cera de soja, essència natural de canella</p>
+                        <p class="product-price">19,00 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="aromatiques">
+                    <div class="product-img">
+                        <img src="imatges/vela-aromatica.png" alt="Vela aromàtica llavor">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vela aromètica Llavor</h3>
+                        <p class="product-desc">Cera de soja, essència natural de llavor</p>
+                        <p class="product-price">18,50 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="decoratives">
+                    <div class="product-img">
+                        <img src="imatges/vela-decorativa.png" alt="Vela decorativa geometrica">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vela geomètrica Cub</h3>
+                        <p class="product-desc">Forma cub, cera d'abel·la natural</p>
+                        <p class="product-price">22,00 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="decoratives">
+                    <div class="product-img">
+                        <img src="imatges/vela-decorativa.png" alt="Vela decorativa esfera">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vela esfera</h3>
+                        <p class="product-desc">Forma esfèrica, cera d'abel·la natural</p>
+                        <p class="product-price">24,00 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="decoratives">
+                    <div class="product-img">
+                        <img src="imatges/vela-decorativa.png" alt="Vela decorativa flor">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vela flor de llotus</h3>
+                        <p class="product-desc">Detall artesanal, cera de soja</p>
+                        <p class="product-price">26,00 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="packs">
+                    <div class="product-img">
+                        <img src="imatges/pack-regal.png" alt="Pack relax">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pack Relax</h3>
+                        <p class="product-desc">3 veles: lavanda, camomil·la, sàndal</p>
+                        <p class="product-price">48,00 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="packs">
+                    <div class="product-img">
+                        <img src="imatges/pack-regal.png" alt="Pack energia">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pack Energia</h3>
+                        <p class="product-desc">3 veles: taronja, llimona, menta</p>
+                        <p class="product-price">48,00 €</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="packs">
+                    <div class="product-img">
+                        <img src="imatges/pack-regal.png" alt="Pack nit romàntica">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pack Nit Romàntica</h3>
+                        <p class="product-desc">3 veles: rosa, jasmin, vainilla</p>
+                        <p class="product-price">52,00 €</p>
+                    </div>
+                </article>
+            </div>
+        </main>
         <footer class="marges">
             <section class="esquerra">
-                <a href="mailto:vaires@iesesteveterradas.cat">Correu Electronic</a>
+                <a href="mailto:vaires@iesesteveterradas.cat">Correu electrònic</a>
             </section>
             <section class="centre">
                 © 2026 Victor Aires
             </section>
             <section class="dreta">
-                <a href="tel:+34649382444">Telefon</a>
+                <a href="tel:+34649382444">Telèfon</a>
             </section>
         </footer>
-        <hr>
     </body>
 </html>
