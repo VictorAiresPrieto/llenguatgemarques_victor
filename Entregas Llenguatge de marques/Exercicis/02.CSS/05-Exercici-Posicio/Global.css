@@ -4,39 +4,45 @@
     color: rgb(66, 34, 10);
     
     nav, footer{
-        position: fixed;
+        position:fixed;
         background-color: rgb(252, 216, 170);
-        text-align: center;
-        width: 100%;
-        display: flex;
-        padding: 20px 20px;
+        display: block;
+        width: 93%;
+        padding: 20px -10px;
+        border-radius: 10px;
+        min-width: 410px;
+        border: 10px, solid, rgb(247, 166, 104);
+        margin: auto;
     }
-
     nav{
         top: 10px;
     }
-
     footer{
         bottom: 10px;
     }
-
     section{
         display: inline-block;
-        max-width: 700px;
-        margin: auto;
+        
     }
-
     a{
         text-decoration: none;
         color: rgb(66, 34, 10);
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: rgb(252, 216, 170);
+        border: 5px, transparent, rgb(247, 166, 104);
+    }
+    a:hover{
+        padding: 10px 20px;
+        background-color: #feae78;
+        border: 5px, solid, rgb(247, 166, 104);
+    }
+}
+
+#index{
+
+    .hero{
+
     }
 
-    a:hover{
-        display: inline;
-        background-color: #ffa467;
-        padding: 12px 20px;
-        border-radius: 10px;
-        border-color: hsl(24, 100%, 4%);
-        border-width: 10px;
-    }
 }
