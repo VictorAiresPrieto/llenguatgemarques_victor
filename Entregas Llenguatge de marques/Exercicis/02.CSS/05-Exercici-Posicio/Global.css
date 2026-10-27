@@ -10,8 +10,10 @@
         padding: 20px -10px;
         width: 100%;
         min-width: 410px;
-        border: 10px, solid, rgb(247, 166, 104);
-        justify-self: center;
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgb(247, 166, 104);
+        margin:auto;
         justify-content: space-between;
     }
     nav{
@@ -32,19 +34,23 @@
         padding: 10px 15px;
         background-color: #feae78;
         border: 5px, solid, rgb(247, 166, 104);
-    }
+    }   
 }
 
 
 .hero{
-    margin-top: 60px;
+    position:fixed;
+    top: 60px;
     max-width: 800px;
     padding: 10px 10px;
     justify-self: center;
     text-align: center;
     border-radius: 50px;
     background-color: rgb(252, 216, 170) ;
-    border: 20px, double, rgb(247, 166, 104);
+    border-width: 20px;
+    border-color: rgb(247, 166, 104);
+    border-style: double        ;
+    margin:auto;
     h1{
         font-size: 40px;
     }
