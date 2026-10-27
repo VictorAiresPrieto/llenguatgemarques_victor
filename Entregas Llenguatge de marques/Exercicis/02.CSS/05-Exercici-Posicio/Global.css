@@ -4,17 +4,18 @@
     color: rgb(66, 34, 10);
     
     nav, footer{
-        position:fixed;
+        position: fixed;
         background-color: rgb(252, 216, 170);
         display: flex;
-        padding: 20px -10px;
         width: 100%;
-        min-width: 410px;
         border-width: 10px;
         border-style: solid;
         border-color: rgb(247, 166, 104);
-        margin:auto;
-        justify-content: space-between;
+        margin: auto;
+        justify-self: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px 100px;
     }
     nav{
         top: 10px;
@@ -37,20 +38,18 @@
     }   
 }
 
-
 .hero{
-    position:fixed;
-    top: 60px;
-    max-width: 800px;
-    padding: 10px 10px;
+    top: 100px;
     justify-self: center;
+    width: 100%;
     text-align: center;
+    padding: 10px 10px;
     border-radius: 50px;
     background-color: rgb(252, 216, 170) ;
     border-width: 20px;
     border-color: rgb(247, 166, 104);
-    border-style: double        ;
-    margin:auto;
+    border-style: double;
+
     h1{
         font-size: 40px;
     }
