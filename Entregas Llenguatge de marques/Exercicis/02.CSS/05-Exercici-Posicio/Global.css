@@ -92,6 +92,23 @@
     text-align: center;
     padding: 50px;
     font-size: larger;
+    section{
+        background-color: rgb(252, 216, 170);
+        padding: 1px 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    a{
+        background-color: #ff913d;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(66, 34, 10);
+    }
+    a:hover{
+        color: rgb(250, 189, 143);
+    }
 }
 .productes{
     display: flex;
@@ -99,6 +116,7 @@
     gap: 20px;
     justify-content: center;
     text-align: center;
+    margin-bottom: 70px;
     section{
         background-color:#feae78;
         border-radius: 20px;
