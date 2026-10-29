@@ -183,6 +183,7 @@
         padding: 30px;
         border-bottom-style: solid;
         gap:20px;
+        margin-bottom: 60px;
     }
     input{
         height: 30px;
@@ -204,6 +205,17 @@
         justify-content: center;
         span{
             font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #global {
+        .hero{
+            margin-top: 40px;
+            border-radius: 20px;
+            h1{ font-size: 28px; }
+            button{ width: 100%; }
         }
     }
 }
